@@ -8,9 +8,9 @@ function isPalindrome(word) {
        
     revWord = revWord.join('')
   
-    if(word === revWord)
+    if(word === revWord){
       return true
-    else 
+    }
       return false
   }
   
