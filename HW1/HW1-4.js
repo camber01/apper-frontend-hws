@@ -8,7 +8,7 @@ function isPalindrome(word) {
        
     revWord = revWord.join('')
   
-    if(word === revWord){
+    if(word.toLowerCase() === revWord.toLowerCase()){
       return true
     }
       return false
